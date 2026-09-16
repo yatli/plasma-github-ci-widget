@@ -8,12 +8,12 @@
   <group name="General">
     <entry name="repo" type="String">
       <label>GitHub repository (owner/repo)</label>
-      <default>ZGCI-SoftwareIntelligence/zgent</default>
+      <default></default>
     </entry>
 
     <entry name="workflow" type="String">
       <label>Workflow file (e.g. ci.yml). Empty = latest run of any workflow.</label>
-      <default>ci.yml</default>
+      <default></default>
     </entry>
 
     <entry name="branch" type="String">
@@ -23,7 +23,7 @@
 
     <entry name="label" type="String">
       <label>Badge label</label>
-      <default>ci</default>
+      <default>build</default>
     </entry>
 
     <entry name="intervalMinutes" type="Int">
