@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            { "Name": "yatli" }
+        ],
+        "Category": "Development Tools",
+        "Description": "Shows the live build status of a GitHub Actions workflow as a status badge in your panel.",
+        "Icon": "github-build-badge",
+        "Id": "org.yatli.github.buildbadge",
+        "License": "MIT",
+        "Name": "GitHub Build Badge",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "horizontal",
+            "vertical"
+        ]
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
