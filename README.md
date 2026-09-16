@@ -3,6 +3,8 @@
 A tiny Plasma 6 panel widget that shows the live build status of a GitHub
 Actions workflow as a shields-style badge, e.g. `[ build | passing ]`.
 
+![demo](demo.gif)
+
 ## What it does
 
 - Polls the GitHub API for the latest run of a workflow and renders a
